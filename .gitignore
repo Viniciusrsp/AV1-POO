@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignorar arquivos temporários do Python
+__pycache__/
+
+# Ignorar arquivos compilados
+*.pyc
+*.pyo
+
 # User-specific files
 *.rsuser
 *.suo
